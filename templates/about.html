@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% block body %}
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %} DIPTI | About {% endblock title %}</title>
+    <script src="{% static 'js/about.js' %}" defer></script>
+    <style>
+      .content {
+        color: white;
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="content">
+      This <br />
+      Is <br />
+      About <br />
+      Page
+    </h1>
+  </body>
+</html>
+
+{% endblock body %}

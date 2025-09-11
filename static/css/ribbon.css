@@ -1,0 +1,27 @@
+ @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+      body {
+        background: #222;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      .top {
+        position: relative;
+        height: 10px;
+        background: linear-gradient(
+          141deg,
+          cyan 0%,
+          rebeccapurple 40%,
+          deeppink 90%
+        );
+      }
+
+      h1 {
+        font-family: "Oswald", sans-serif;
+        color: white;
+        font-size: 4vw;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
