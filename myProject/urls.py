@@ -27,5 +27,5 @@ urlpatterns = [
     path('contact/', contact, name="contact"),
     path('login/', login, name="login"),
     path('posts/', include('posts.urls')),
-    path('user/', include('user.urls')),
+    # path('user/', include('user.urls')),
 ]
